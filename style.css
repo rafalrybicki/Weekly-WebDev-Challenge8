@@ -537,7 +537,7 @@ footer{
 
 @media (min-width: 576px){
 
-        .right-arrow{
+    .right-arrow{
         right: 5vh;
     }
 
@@ -581,7 +581,7 @@ footer{
     }
     /*portfolio*/
     section .project{
-        min-width: 25vw;
+        min-width: 20vw;
     }
 
     section .project:nth-child(n+13){
@@ -720,6 +720,13 @@ footer{
         margin-right: 10vw;
     }
 
+    section .project{
+        min-width: calc(100% / 7);
+    }
+    section .project:nth-child(n+19) {
+      display: block;
+    }
+
     section .brand-links{
         width: 80%;
         margin: 0 auto;
@@ -746,23 +753,8 @@ footer{
     }
 }
 
-@media (min-width: 1000px){
-    section .project{
-        min-width: 20vw;
-    }
-
-    section .project:last-of-type{
-      display: none;
-  }
-}
-
 @media (min-width: 1200px){
-    section .project{
-        min-width: calc(100% / 7);
-    }
-    section .project:nth-child(n+19) {
-      display: block;
-  }
+    
 
     section .brand-links{
         width: 80%;
