@@ -123,7 +123,7 @@ function scrollTo(e) {
 }
 
 
-//LIGHTBOX
+// LIGHTBOX
 const projects = document.querySelectorAll('.project');
 projects.forEach((el)=>{
    el.addEventListener('click', lightbox);
